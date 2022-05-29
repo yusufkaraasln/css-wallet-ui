@@ -1,0 +1,458 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+* ::-webkit-scrollbar {
+  width: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  background: #1b242eea;
+}
+
+.container .wallet-page-1 {
+  background: #1a212a;
+  width: 414px;
+  height: 897px;
+}
+
+.container .wallet-page-1 header {
+  height: 205px;
+  padding: 25px;
+}
+
+.container .wallet-page-1 header .account {
+  margin-bottom: 25px;
+}
+
+.container .wallet-page-1 header .account h5 {
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.container .wallet-page-1 header .account-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .wallet-page-1 header .account-details h1 {
+  color: #fff;
+  font-size: 38px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.container .wallet-page-1 header .account-details .profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .wallet-page-1 header .account-details .profile img {
+  border-radius: 45px;
+  height: 45px;
+  width: 45px;
+  border: 2px solid #157aff;
+}
+
+.container .wallet-page-1 header .quick-menu ul {
+  display: flex;
+  align-items: center;
+  overflow: auto;
+}
+
+.container .wallet-page-1 header .quick-menu ul li {
+  margin-right: 30px;
+}
+
+.container .wallet-page-1 header .quick-menu ul li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container .wallet-page-1 header .quick-menu ul li a img {
+  background: rgba(83, 95, 109, 0.19);
+  border-radius: 24px;
+  padding: 17px;
+  margin-bottom: 9px;
+}
+
+.container .wallet-page-1 header .quick-menu ul li a span {
+  color: #fff;
+}
+
+.container .wallet-page-1 main {
+  padding: 13px 24px;
+  height: 571px;
+  overflow: auto;
+  background: #1b242e;
+  border-radius: 48px 48px 0 0;
+}
+
+.container .wallet-page-1 main .yesterday {
+  margin-top: 35px;
+}
+
+.container .wallet-page-1 main .trans .top-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 29px;
+}
+
+.container .wallet-page-1 main .trans .top-menu h3 {
+  flex: 1;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.container .wallet-page-1 main .trans .top-menu__settings button {
+  height: 52px;
+  width: 52px;
+  background: rgba(83, 95, 109, 0.19);
+  border: none;
+  border-radius: 14px;
+}
+
+.container .wallet-page-1 main .trans .top-menu__settings button:not(:last-child) {
+  margin-right: 18px;
+}
+
+.container .wallet-page-1 main .trans .content ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .wallet-page-1 main .trans .content ul li:not(:last-child) {
+  margin-bottom: 14px;
+  border-bottom: 1px solid rgba(216, 216, 216, 0.3);
+  padding: 0 0 16px 0;
+}
+
+.container .wallet-page-1 main .trans .content ul li .company {
+  display: flex;
+  justify-content: space-between;
+  flex: 2;
+  align-items: center;
+}
+
+.container .wallet-page-1 main .trans .content ul li .company__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container .wallet-page-1 main .trans .content ul li .company__details h4 {
+  color: #fff;
+  margin-bottom: 9px;
+}
+
+.container .wallet-page-1 main .trans .content ul li .company__details span {
+  display: block;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+}
+
+.container .wallet-page-1 main .trans .content ul li .balance {
+  flex: 1;
+  margin-right: auto;
+  text-align: end;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.container .wallet-page-1 footer {
+  height: 45px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.container .wallet-page-1 footer button {
+  border: none;
+  background-color: transparent;
+}
+
+.container .wallet-page-1 footer button img {
+  height: 25px;
+  width: 25px;
+}
+
+.container .wallet-page-2 {
+  width: 414px;
+  min-width: 414px;
+  min-height: 897px;
+  height: 897px;
+  background: #1a212a;
+}
+
+.container .wallet-page-2 .header {
+  padding: 38px 24px;
+}
+
+.container .wallet-page-2 .header-menu {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.container .wallet-page-2 .header-menu__tag {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.container .wallet-page-2 .header-menu__tag h2 {
+  color: #fff;
+  font-size: 32px;
+}
+
+.container .wallet-page-2 .header-menu__tag img {
+  margin-right: 15.9px;
+}
+
+.container .wallet-page-2 .header .cards {
+  display: flex;
+  overflow: auto;
+}
+
+.container .wallet-page-2 .header .cards-container-1 {
+  height: 172px;
+  width: 307px;
+  min-width: 307px;
+  background: linear-gradient(to right, #141414, #292929);
+  border-radius: 20px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container .wallet-page-2 .header .cards-container-1:not(:last-child) {
+  margin-right: 20px;
+}
+
+.container .wallet-page-2 .header .cards-container-1 h3 {
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.container .wallet-page-2 .header .cards-container-1 img {
+  height: 30px;
+  width: 40px;
+}
+
+.container .wallet-page-2 .header .cards-container-1__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .wallet-page-2 .header .cards-container-1__info img {
+  margin-left: auto;
+}
+
+.container .wallet-page-2 .header .cards-container-1__info span {
+  color: #fff;
+}
+
+.container .wallet-page-2 .header .cards-container-1__info span:not(:last-child) {
+  margin-right: 5px;
+}
+
+.container .wallet-page-2 .header .cards-container-2 {
+  height: 172px;
+  width: 307px;
+  min-width: 307px;
+  background: linear-gradient(to right, #1ceb49, #3c6ba8);
+  border-radius: 20px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container .wallet-page-2 .header .cards-container-2:not(:last-child) {
+  margin-right: 20px;
+}
+
+.container .wallet-page-2 .header .cards-container-2 h3 {
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.container .wallet-page-2 .header .cards-container-2 img {
+  height: 30px;
+  width: 40px;
+}
+
+.container .wallet-page-2 .header .cards-container-2__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .wallet-page-2 .header .cards-container-2__info img {
+  margin-left: auto;
+}
+
+.container .wallet-page-2 .header .cards-container-2__info span {
+  color: #fff;
+}
+
+.container .wallet-page-2 .header .cards-container-2__info span:not(:last-child) {
+  margin-right: 5px;
+}
+
+.container .wallet-page-2 .header .cards-container-3 {
+  height: 172px;
+  width: 307px;
+  min-width: 307px;
+  background: linear-gradient(to right, #adeb1c, #ff9100);
+  border-radius: 20px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container .wallet-page-2 .header .cards-container-3:not(:last-child) {
+  margin-right: 20px;
+}
+
+.container .wallet-page-2 .header .cards-container-3 h3 {
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.container .wallet-page-2 .header .cards-container-3 img {
+  height: 30px;
+  width: 40px;
+}
+
+.container .wallet-page-2 .header .cards-container-3__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .wallet-page-2 .header .cards-container-3__info img {
+  margin-left: auto;
+}
+
+.container .wallet-page-2 .header .cards-container-3__info span {
+  color: #fff;
+}
+
+.container .wallet-page-2 .header .cards-container-3__info span:not(:last-child) {
+  margin-right: 5px;
+}
+
+.container .wallet-page-2 .header .cards-container-4 {
+  height: 172px;
+  width: 307px;
+  min-width: 307px;
+  background: linear-gradient(to right, #eb1c95, #a200ff);
+  border-radius: 20px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container .wallet-page-2 .header .cards-container-4:not(:last-child) {
+  margin-right: 20px;
+}
+
+.container .wallet-page-2 .header .cards-container-4 h3 {
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.container .wallet-page-2 .header .cards-container-4 img {
+  height: 30px;
+  width: 40px;
+}
+
+.container .wallet-page-2 .header .cards-container-4__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .wallet-page-2 .header .cards-container-4__info img {
+  margin-left: auto;
+}
+
+.container .wallet-page-2 .header .cards-container-4__info span {
+  color: #fff;
+}
+
+.container .wallet-page-2 .header .cards-container-4__info span:not(:last-child) {
+  margin-right: 5px;
+}
+
+.container .wallet-page-2 .content {
+  padding: 0 20px;
+}
+
+.container .wallet-page-2 .content h4 {
+  margin-bottom: 24px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 00;
+}
+
+.container .wallet-page-2 .content ul {
+  display: flex;
+  align-items: center;
+  overflow: auto;
+}
+
+.container .wallet-page-2 .content ul li img {
+  height: 60px;
+  width: 60px;
+  border-radius: 24px;
+}
+
+.container .wallet-page-2 .content ul li:not(:last-child) {
+  margin-right: 15px;
+}
+
+.container .wallet-page-2 .content ul #add {
+  height: 60px;
+  width: 60px;
+  min-width: 60px;
+  background: #157aff;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 24px;
+}
+
+.container .wallet-page-2 .content ul #add img {
+  width: 18px;
+  height: 18px;
+}
+/*# sourceMappingURL=style.css.map */
